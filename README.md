@@ -12,20 +12,33 @@ Bu proje HTML, CSS ve JavaScript kullanılarak geliştirilmiş  bir sinema koltu
 <li><b>Veritabanına Kaydetme ve Okuma:</b> Kullanıcıların seçtikleri koltukları, filmleri ve rezervasyon bilgilerini tarayıcı veritabanına kaydetme ve geri alma özelliği bulunmaktadır.</li>
 </ul>
 
+<h2> Fiyatlandırma </h2>
+<ul>
+<li><b>Film1:</b> 100 TL</li>
+<li><b>Film2:</b> 200TL</li>
+<li><b>Film3:</b> 300TL </li>
+</ul>
 
-<h2> Kullanilan Teknolojiler </h2>
+
+
+
+<h2> JavaScript Kodları Açıklama</h2>
+
+<ul>
+<li> <b>'saveToDatabase' </b> ve  <b>'getFromDatabase' </b>  fonksiyonları seçilen koltukları, filmleri ve rezervasyon bilgilerini tarayıcı veritabanına kaydeder ve geri alır.</li>
+<li><b>'createIndex'</b>  fonksiyonu tüm koltukları ve seçili koltukları kullanarak koltukların indekslerini oluşturur.</li>
+<li><b>'calculateTotal'</b> fonksiyonu seçili koltuk sayısını ve seçilen filmin fiyatını dikkate alarak toplam ücreti hesaplar, bu bilgileri kullanıcıya gösterir ve veritabanına kaydeder </li>
+
+</ul>
+
+<h2> Kullanılan Teknolojiler </h2>
 <ul>
 <li>HTML5</li>
 <li>CSS</li>
 <li>JavaScript</li>
 </ul>
 
-<h2> Fiyatlandirma </h2>
-<ul>
-<li><b>Film1:</b> 100 TL</li>
-<li><b>Film2:</b> 200TL</li>
-<li><b>Film3:</b> 300TL </li>
-</ul>
+
 
 <h2>Ekran Görüntüsü</h2>
 
